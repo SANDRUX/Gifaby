@@ -1,0 +1,9 @@
+.anima {
+  position: absolute;
+  height: 20%;
+  width: 20%;
+  left: 40%;
+  top: 37%;
+  background-image: url(./img/group_32.png) no-repeat;
+  background-size: contain;
+}

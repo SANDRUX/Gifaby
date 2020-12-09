@@ -1,0 +1,220 @@
+:root {
+  --color: linear-gradient(to right, #36d1dc, #5b86e5);
+  --color-main: linear-gradient(to right, #5433ff, #20bdff, #a5fecb);
+  --solo-color: #5433ff;
+}
+
+#liso {
+  background-color: var(--solo-color);
+  background-image: var(--color);
+  background-size: 200%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.text-gradient {
+  background-color: var(--solo-color);
+  background-image: var(--color);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.allr {
+  position: fixed;
+  left: 20%;
+  top: 8%;
+  animation: all 0.2s ease-in;
+  width: 600px;
+  transition: 0.2s cubic-bezier(0.75, 0.83, 0.9, 0.22);
+}
+
+.con {
+  padding: 30px;
+  position: absolute;
+  height: 40%;
+  width: 30%;
+  left: 35%;
+  top: 30%;
+  color: #87b0c6;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px -5px gray;
+  background-color: #ffffff;
+}
+
+.bbn {
+  position: absolute;
+  top: 35%;
+  width: 85%;
+}
+
+#lico {
+  background-image: var(--color);
+  border: none;
+}
+#lico:hover {
+  background-position: left center;
+}
+
+.bb {
+  position: absolute;
+  background-image: var(--color);
+  top: 110px;
+  height: 40px;
+  width: 100px;
+  left: 35%;
+  border: none;
+}
+
+.ansx {
+  position: relative;
+  left: 60%;
+  top: 20%;
+  height: 47%;
+  width: 47%;
+}
+
+.nr1 {
+}
+
+.nr2 {
+}
+.nr3 {
+}
+
+.gge {
+  margin-top: 15px;
+}
+
+.loginn {
+  padding: 30px;
+  position: absolute;
+  left: 30%;
+  top: 15%;
+  color: #87b0c6;
+  border-radius: 20px;
+  box-shadow: 5px 10px 13px -8px rgb(172, 172, 172);
+  background-color: #ffffff;
+}
+
+.inps {
+  margin-top: 33px;
+}
+
+.fnn {
+  font-size: 17px;
+}
+
+.checkk {
+  margin-top: 15px;
+  font-size: 10px;
+  width: 300px;
+  color: #235875;
+}
+.loginbtnn {
+  width: 400px;
+}
+
+.google {
+  position: absolute;
+  left: 60%;
+  top: 30%;
+  height: 40px;
+  width: 300px;
+}
+.icon {
+  position: absolute;
+  top: 11px;
+  left: 20px;
+}
+
+.nn {
+  margin-bottom: 15px;
+}
+
+.fonz {
+  font-size: 30px;
+}
+
+.facebook {
+  position: absolute;
+  left: 8%;
+  height: 40px;
+  width: 300px;
+  top: 56%;
+}
+.iconf {
+  position: absolute;
+  top: 11px;
+  left: 20px;
+}
+
+.facebookf {
+  position: absolute;
+  height: 40px;
+  width: 300px;
+  left: 60%;
+  top: 30%;
+}
+
+.apple {
+  position: absolute;
+  left: 60%;
+  height: 40px;
+  width: 300px;
+  top: 50%;
+}
+.icona {
+  position: absolute;
+  top: 11px;
+  left: 20px;
+}
+.linee {
+  position: absolute;
+  background: #87b0c6;
+  left: 52%;
+  top: 23%;
+  width: 1.5px;
+  height: 300px;
+}
+.logoo {
+  position: absolute;
+  background-image: var(--color);
+  -webkit-mask: url(./img/group_32.png) no-repeat;
+  mask: url(./img/group_32.png) no-repeat;
+  mask-size: 70%;
+  background-size: contain;
+  height: 20%;
+  width: 20%;
+  left: 63%;
+  top: 10%;
+}
+.back {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  color: #87b0c6;
+  left: 1.5%;
+  top: 3%;
+}
+@keyframes all {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes allt {
+  from {
+    transform: translateX(200px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}

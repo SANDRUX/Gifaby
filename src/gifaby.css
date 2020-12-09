@@ -1,0 +1,59 @@
+.allbg {
+}
+
+:root {
+  --color: linear-gradient(0.25turn, #36d1dc, #5b86e5);
+  --color-main: linear-gradient(0.25turn, #5433ff, #20bdff, #a5fecb);
+  --solo-color: #5433ff;
+}
+
+nav {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 10000;
+}
+
+.btnoutssd {
+  position: fixed;
+  left: 85%;
+  top: 2%;
+  z-index: 100000000;
+}
+
+.navbarh {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  left: 5%;
+  background-color: white;
+  padding: 33px;
+  height: 100%;
+  width: 90%;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 5px 5px 15px -5px rgb(175, 174, 174);
+  z-index: 10000;
+}
+
+.logoh {
+  position: absolute;
+  background-image: var(--color);
+  -webkit-mask: url(./img/group_32.png) no-repeat;
+  mask: url(./img/group_32.png) no-repeat;
+  mask-size: 7%;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  left: 7%;
+  top: 15%;
+  object-fit: cover;
+  image-resolution: 100px 100px;
+  z-index: 10001;
+}
+
+.Feed {
+  position: relative;
+  left: 35%;
+  width: 100%;
+  z-index: 100;
+}
