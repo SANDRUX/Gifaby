@@ -12,7 +12,7 @@ export default function Loading() {
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        animationData: require('/Users/luka/webgifaby/src/img/39413-loading.json')
+        animationData: require('./img/39413-loading.json')
       })
     }, [])
 
