@@ -2,7 +2,7 @@ import React, { Component, Link } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form, Alert, Spinner } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
-import './Ladding.css'
+import '../Ladding.css'
 import firebase from 'firebase'
 import { FaGoogle, FaFacebookF, FaApple } from 'react-icons/fa';
 

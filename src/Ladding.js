@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form, Alert } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Login from './auth/Login'
-import '../src/Ladding.css'
+import './Ladding.css'
 import React, { useEffect, useRef, useState } from 'react';
 import lottie from 'lottie-web';
 import { Helmet } from 'react-helmet'
