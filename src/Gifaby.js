@@ -59,8 +59,9 @@ function Home() {
                 <div className='logoh'></div>
             </nav>
                 <div className='Profile' >
-                    <Profile username={user.displayName} photoUrl={user.photoUrl} 
+                    <Profile username={user.displayName} photoUrl={user.photoUrl} />
                 </div>
+                
                 <div className='Feed' >
                     {
                         posts.map(({id, post}) => (
