@@ -1,4 +1,4 @@
-# Gifaby - Login & Register
+# Gifaby
 
 ## Available Scripts
 
