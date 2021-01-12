@@ -1,12 +1,10 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Gifaby - Login & Register
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-FIRST RUN `npm install`
+## FIRST RUN! `npm install`
 
 ### `npm start`
 
