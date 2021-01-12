@@ -21,7 +21,7 @@ export class Login extends Component {
             email: '',
             password: '',
             loading: false,
-            errorMessage: ''
+            errorM: ''
 
         }
         this.onSignUp = this.onSignUp.bind(this)
@@ -47,13 +47,13 @@ export class Login extends Component {
     }
 
     onSignUp(event) {
-        const { errorMessage, email, password } = this.state
+        const { errorM, email, password } = this.state
         firebase.auth().signInWithEmailAndPassword(email, password)
         .then((result) => {
             console.log(result)
         })
         .catch((error) => {
-            alert(error.message)
+            this.setState({errorM: error.message})
         })
         this.setState({ loading : true })
 
@@ -101,7 +101,10 @@ export class Login extends Component {
                         </Form.Group>
                         
                         </Form>
-                       
+                        <div class='error_'>
+                        { this.state.errorM &&
+                         <Alert variant='danger' className="errorrr"> { this.state.errorM } </Alert> }
+                       </div>
             </>
         )
 }

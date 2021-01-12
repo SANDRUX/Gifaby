@@ -1,4 +1,20 @@
 .allbg {
+  animation: all 0.2s;
+  transition: 0.2s ease-in-out;
+  transform: 1s;
+  overflow-x: hidden;
+}
+
+.Feed {
+}
+
+@keyframes all {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 :root {
@@ -54,6 +70,7 @@ nav {
 .Feed {
   position: relative;
   left: 35%;
+  height: 1000000000%;
   width: 100%;
-  z-index: 100;
+  z-index: 1000;
 }

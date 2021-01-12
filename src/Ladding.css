@@ -4,16 +4,21 @@
   --solo-color: #5433ff;
 }
 
+.error_ {
+  position: absolute;
+  left: 52%;
+  top: 2%;
+}
+
 .nk1 {
   position: absolute;
   height: 25%;
-  width: 25%;
+  width: 19%;
   left: 89%;
   top: 75%;
   background: url(./img/abstract-119.png) no-repeat;
   background-size: contain;
   object-fit: cover;
-  image-resolution: 50% 50%;
 }
 
 .nk2 {
@@ -37,7 +42,7 @@
 .nk3 {
   position: absolute;
   height: 20%;
-  width: 20%;
+  width: 17%;
   left: 90%;
   top: 0%;
   background: url(./img/abstract-165.png) no-repeat;
@@ -182,6 +187,7 @@
   animation: all 0.2s;
   transition: 0.2s ease-in-out;
   transform: 1s;
+  overflow-x: hidden;
 }
 
 .registerf {
