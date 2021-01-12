@@ -55,7 +55,7 @@ export default function Join() {
         return (
             <>
             <Helmet>
-              <title>Gifaby | Login</title>
+              <title>Gifaby </title>
             </Helmet>
               <div className='all'>
                       <div className='logo'></div>
@@ -79,7 +79,7 @@ export default function Join() {
                           <div className='line' ><h8>Or</h8></div>
                           <div className='registerf' > 
                             <Button id='lico' onClick={onFace} className='facebook' ><FaFacebookF  className='iconf'/>   Continue as Facebook</Button>
-                            <Button id='lico' onClick={() => setModalIsOpen(true) } className='gilaki'>Register</Button>
+                            <Button id='lico' onClick={() => setModalIsOpen(true) } className='gilaki light'>Register</Button>
                           </div>
                       </div>   
                       </div> 

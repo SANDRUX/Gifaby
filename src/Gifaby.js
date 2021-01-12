@@ -12,6 +12,7 @@ import Feed from './Feed'
 import Avatar from '@material-ui/core/Avatar'
 import firebase from 'firebase'
 import nickname from './Register'
+import Profile from './Profile'
 
 
 
@@ -57,10 +58,13 @@ function Home() {
                 <Button onClick={() => firebase.auth().signOut()} className='btnoutssd' variant='outline-danger' >LogOut</Button>
                 <div className='logoh'></div>
             </nav>
+                <div className='Profile' >
+                    <Profile username={user.displayName} photoUrl={user.photoUrl} 
+                </div>
                 <div className='Feed' >
                     {
                         posts.map(({id, post}) => (
-                            <Feed key={id} username={post.username} description={post.description} imageUrl={post.imageUrl} />
+                            <Feed key={id} photoUrl={post.photoUrl} username={post.username} description={post.description} imageUrl={post.imageUrl} />
                         ))
                     }
                 </div>

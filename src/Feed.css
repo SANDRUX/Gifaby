@@ -1,9 +1,11 @@
 .post__ {
-  height: 28%;
-  width: 28%;
   left: 36%;
   max-width: 400px;
-  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.post__d_p {
+  padding: 5px;
 }
 
 .post__image {
@@ -30,10 +32,18 @@
 }
 
 .post__d {
+  position: absolute;
+  left: 0%;
+  top: 80%;
   padding: 10px 5px;
   background-color: #ffff;
   box-shadow: 5px 5px 15px -5px rgb(148, 147, 147);
-  border-radius: 0px 0px 15px 15px;
+  border-radius: 15px 15px 15px 15px;
+  width: 400px;
+}
+
+.post__username {
+  display: flex;
 }
 
 .post__text {
@@ -42,4 +52,8 @@
 
 .post__u {
   margin-right: 5px;
+}
+
+.post__image {
+  border-radius: 20px 20px 0px 0px;
 }
