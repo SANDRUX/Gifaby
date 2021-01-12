@@ -64,8 +64,7 @@ export default function Join() {
                       <div className='nk3'></div>
                       <div className='navbar'>
                       </div>
-                      { errorMessage &&
-                         <Alert variant='danger' className="errorrr"> { errorMessage } </Alert> }
+                      
                       <div>
                           <div className='welcome'>
           

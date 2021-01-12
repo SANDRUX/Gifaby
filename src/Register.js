@@ -95,6 +95,9 @@ export class Register extends Component {
     const {newuser} = this.state
     return(
         <>
+        <Helmet>
+            <title>Gifaby | SignUp</title>
+        </Helmet>
         <div className='allr'>
 
                 <Form onSubmit={this.onSignUp} className='loginn'>
